@@ -1,0 +1,153 @@
+* {
+    text-decoration: none;
+    /* margin: 0px; */
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: #004225 ;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #F5F5DC;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #FFCF9D;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #004225;
+    width: 100%;
+    line-height: 50%;
+    
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #004225;
+    width: 100%;
+    line-height: 50%;
+    
+}
+
+.paragraph  {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'comix sans ms';
+    color: #4F6F52;
+    margin-bottom: 15px;
+}
+
+.profil {
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #FFCF9D;
+}
+
+.kontak {
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #FFCF9D;
+}
+
+.wrapper-profil {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+
+}
+.wrapper-kontak{
+    width: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.kontak .detail {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.kontak .detail .left{
+    width: 50px;
+}
+
+.kontak .detail .left img{
+    width: 40px;
+    height: 40px;
+}
+
+.kontak .detail .right{
+    width: 450px;
+}
